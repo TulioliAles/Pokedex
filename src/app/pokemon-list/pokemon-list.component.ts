@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./pokemon-list.component.sass']
 })
 export class PokemonListComponent {
-  pokemons = [
-    {nome: "Bulbasaur", imagem: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png"},
-    {nome: "Ivysaur", imagem:"https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png"},
-    {nome: "Venusaur", imagem:"https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" }
-  ];
+  pokemons = ["Bulbasaur", "Ivysaur", "Venusaur"];
  }
